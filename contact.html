@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - Website Cá Nhân</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">MyPortfolio</a>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="products.html">Sản Phẩm</a></li>
+                <li><a href="contact.html" class="active">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <img src="images/map-contact.jpg" alt="Địa điểm văn phòng" style="width: 100%; height: 180px; object-fit: cover; border-radius: 4px; margin-bottom: 1.5rem;">
+            <h2>Gửi Thông Tin Liên Hệ</h2>
+            <br>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Họ và Tên:</label>
+                    <input type="text" id="name" name="name" required placeholder="Nhập tên của bạn">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Nhập email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Nội dung:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Nhập lời nhắn..."></textarea>
+                </div>
+                <button type="submit">Gửi Tin Nhắn</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bản quyền thuộc về Sinh Viên.</p>
+    </footer>
+</body>
+</html>
